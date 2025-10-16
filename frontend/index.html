@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Customer Portal – Teams SSO</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial;margin:0;background:#0b0d12;color:#e6eaf2}
+    .wrap{max-width:900px;margin:0 auto;padding:24px}
+    .card{background:#121722;border:1px solid #233149;border-radius:12px;padding:16px}
+    .btn{background:#5B8CFF;border:0;border-radius:10px;color:#fff;padding:10px 14px;cursor:pointer;text-decoration:none;display:inline-block}
+    .muted{color:#aab2c0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+  </style>
+  <script src="https://res.cdn.office.net/teams-js/2.31.1/js/MicrosoftTeams.min.js"></script>
+  <script defer src="/sso.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Customer Portal</h1>
+    <section class="card" id="status"><strong>Initializing…</strong><div class="muted">Please wait.</div></section>
+    <section class="card" id="chooser" style="display:none">
+      <h2>Select a workspace</h2>
+      <div id="grid" class="grid"></div>
+    </section>
+  </div>
+</body>
+</html>

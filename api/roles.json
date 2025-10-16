@@ -1,0 +1,14 @@
+{
+  "groups": {
+    "<GROUP_ID_FOR_CUSTOMER_A>": {
+      "role": "customerA",
+      "path": "/CustomerA/",
+      "label": "Customer A"
+    },
+    "<GROUP_ID_FOR_CUSTOMER_B>": {
+      "role": "customerB",
+      "path": "/CustomerB/",
+      "label": "Customer B"
+    }
+  }
+}

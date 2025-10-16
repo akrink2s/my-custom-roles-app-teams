@@ -1,0 +1,10 @@
+{
+  "name": "teams-sso-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-node": "^2.6.4",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
